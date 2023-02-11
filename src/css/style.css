@@ -1,9 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "MuseoModerno", sans-serif; }
+
 .container {
-  width: 945px; }
+  width: 1140px; }
 
 .first-screen {
-  height: 650px;
   width: 100vw;
-  background: url("../bg_1.jpg") center center/cover no-repeat; }
+  height: 650px;
+  background: url("../bg_1.jpg") center/cover no-repeat;
+  padding-top: 21px; }
+  .first-screen .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .first-screen .header .header__logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 250px; }
+      .first-screen .header .header__logo img {
+        width: 41px;
+        -webkit-filter: brightness(0) invert(1);
+                filter: brightness(0) invert(1); }
+      .first-screen .header .header__logo .header__logo-titles {
+        margin-left: 10px; }
+        .first-screen .header .header__logo .header__logo-titles .titles-title {
+          font-size: 21px;
+          line-height: 25px;
+          color: #fff; }
+        .first-screen .header .header__logo .header__logo-titles .titles-subtitle {
+          font-size: 12px;
+          color: #fff; }
+    .first-screen .header .header__info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #fff; }
+      .first-screen .header .header__info .header__info-title {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px; }
+      .first-screen .header .header__info .header__info-subtitle {
+        margin-top: 7px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 29px; }
+    .first-screen .header .header__contacts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .first-screen .header .header__contacts .number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-decoration: none;
+        color: white; }
+      .first-screen .header .header__contacts .consult-button {
+        width: 153px;
+        height: 32px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background-color: #C70101;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        border-radius: 5px;
+        margin-top: 4px; }
 
 /*# sourceMappingURL=style.css.map */
