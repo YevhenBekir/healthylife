@@ -4,18 +4,15 @@
     padding: 0
     margin: 0
     font-family: 'MuseoModerno', sans-serif
-
-.container
-    width: 1140px
-    
+   
 .first-screen
     width: 100vw
     height: 650px
-    background: url('../bg_1.jpg') center / cover no-repeat
+    background: url('../assets/img/bg_1.jpg') center / cover no-repeat
     padding-top: 21px
     .header
         display: flex
-        justify-content: space-around
+        justify-content: center
         .header__logo
             display: flex
             align-items: center
@@ -58,7 +55,7 @@
                 line-height: 18px
                 text-decoration: none
                 color: white
-            .consult-button
+            .call-button
                 width: 153px
                 height: 32px
                 display: flex
@@ -72,3 +69,26 @@
                 line-height: 12px
                 border-radius: 5px
                 margin-top: 4px
+    .first-screen__info
+
+        .info__titles
+            display: flex
+            flex-direction: column
+            text-align: right
+        .info__icons
+            display: flex
+            .icons__timer
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+            .icons__delivery
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+            .icons__answer
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
